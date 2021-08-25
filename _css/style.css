@@ -17,8 +17,8 @@ body{
     grid-template-areas: 'verde vermelho'
       ' amarelo azul';
     grid-gap: 10px;
-    border: 1px solid white;
-    background-color: white;
+    border: 1px solid rgb(104, 104, 104);
+    background-color: rgb(15, 15, 15);
     border-radius: 100%;
     margin-top:20%;
     width:700px;
@@ -27,20 +27,20 @@ body{
   
   .blue{
     grid-area: azul;
-    background: linear-gradient(to right, #089dff, #015891);
-    border-bottom-right-radius:100%;
+    background-color: #015891;
+    border-bottom-right-radius: 100%;
     
   }
   
   .red{
     grid-area: vermelho;
-    background: linear-gradient(to right, #e34454, #bf0f0f);
-    border-top-right-radius:100%;
+    background-color: #bf0f0f;
+    border-top-right-radius: 100%;
   }
   
   .yellow{
     grid-area: amarelo;
-    background: linear-gradient(to right, #f5f264, #f0eb0a);
+    background-color:#f0eb0a;
     border-bottom-left-radius:100%;
   }
   
@@ -48,10 +48,10 @@ body{
   
   .green{
     grid-area: verde;
-    background: linear-gradient(to right, #53ed7c, #00ad2e);
-    border-top-left-radius:100%;
+    background-color: #00ad2e;
+    border-top-left-radius: 100%;
   }
   
   .selected{
-    opacity:0.5;
+    opacity:0.9;
   }
