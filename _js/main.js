@@ -32,7 +32,7 @@ let lightColor = (element, number) =>{//Acende a próxima cor
     }, number - 250);
     setTimeout(() => {
         element.classList.remove('selected');
-    });
+    }, number);
 }//Fim da função Acende a próxima cor
 
 
